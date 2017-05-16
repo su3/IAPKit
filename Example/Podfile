@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IAPKit_Example' do
+  pod 'IAPKit', :path => '../'
+
+  target 'IAPKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
